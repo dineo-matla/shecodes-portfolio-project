@@ -2,8 +2,12 @@
   --primary-color: #c8c3ff;
   --secondary-color: #fff7eb;
   --accent-color: #c69fd5;
+  --tertiary-color: #1e1e1e;
   --main-font: "georgia", serif;
   --sub-font: "Meie Script", cursive;
+}
+html{
+  overflow-x: hidden;
 }
 
 .homepage-hero {
@@ -47,4 +51,28 @@ h1 {
   background-color: var(--accent-color);
   color: var(--secondary-color);
   transition: 0.3s ease-in-out;
+}
+
+.App-title{
+  font-family:var(--sub-font);
+  font-size:2.3rem;
+  color:var(--primary-color);
+}
+
+.secondary-paragraph-text{
+  font-family:var(--main-font);
+  font-size:1.3rem;
+  color:var(--accent-color);
+}
+
+.project-description{
+  font-family:var(--main-font);
+font-size:1.3rem;
+color:var(--tertiary-color);
+}
+
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
 }
