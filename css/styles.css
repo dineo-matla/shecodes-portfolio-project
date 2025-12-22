@@ -57,6 +57,7 @@ h1 {
   font-family:var(--sub-font);
   font-size:2.3rem;
   color:var(--primary-color);
+  margin-top: 18px;
 }
 
 .secondary-paragraph-text{
@@ -65,14 +66,42 @@ h1 {
   color:var(--accent-color);
 }
 
+.project-info-wrapper{
+  padding:50px 0;
+}
+
+
 .project-description{
   font-family:var(--main-font);
 font-size:1.3rem;
 color:var(--tertiary-color);
 }
 
-
 .project-link {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 768px) {
+ 
+  h1{
+    font-size:2.5rem;
+  }
+
+  .secondary-paragraph-text{
+    margin: 0 !important;
+    font-size: 1.8rem;
+  }
+
+  .App-title{
+    text-align: center;
+    font-size: 2.8rem;
+  }
+
+  .project-description{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    padding:12px;
+  }
 }
