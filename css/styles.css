@@ -10,41 +10,41 @@
   background-color: var(--primary-color);
 }
 
-.hero{
-  padding: 50px 0;
+.hero {
+  padding: 150px 0;
 }
 
 h1 {
   font-family: var(--sub-font);
-  color: var(--secondary-color)!important;
+  color: var(--secondary-color) !important;
   font-size: 5.5rem !important;
   text-align: center;
 }
 
-.paragraph-text{
-    font-family: var(--main-font);
-    color: var(--secondary-color);
-    font-size: 1.5rem;
-    text-align: center;
+.paragraph-text {
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-.cta-btn{
-    display: block;
-    margin: 0 auto;
-    border: 1px solid var(--accent-color);
-    border-radius: 25px;
-    background-color: var(--secondary-color);
-    color:var(--primary-color);
-    padding: 10px 20px;
-    margin-top:25px;
-    font-family: var(--main-font) !important;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    font-size: 1.2rem;
-    cursor: pointer;
+.cta-btn {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--accent-color);
+  border-radius: 25px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  margin-top: 25px;
+  font-family: var(--main-font) !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
-.cta-btn:hover{
-    background-color: var(--accent-color);
-    color: var(--secondary-color);
-    transition: 0.3s ease-in-out;
+.cta-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  transition: 0.3s ease-in-out;
 }
