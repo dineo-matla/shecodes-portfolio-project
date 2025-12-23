@@ -196,6 +196,59 @@ h1 {
 /*Work page styles*/
 
 .work-page-container {
-  padding: 50px 0;
+  padding: 50px;
   background-color: var(--primary-color);
+}
+
+.work-page-container .row{
+  align-items: center !important;
+}
+
+.work-page-container figure{
+  margin: 0 0 3rem;
+}
+
+.work-page-container img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 6rem;
+}
+
+@media(max-width:768px){
+  .work-page-container{
+    padding:20px 0;
+  }
+
+  .work-page-container h1{
+    text-align: center !important;
+  }
+
+  .work-page-container img{
+    width:200px;
+  }
+
+  figcaption, .fs-5{
+    font-size: 1.3rem !important;
+  }
+}
+
+@media(max-width:420px){
+  .work-page-container{
+    padding:25px 0;
+    overflow-x: hidden;
+  }
+
+  .work-page-container h1{
+    text-align: center !important;
+  }
+
+  .work-page-container img{
+    width:200px;
+  }
+
+  figcaption, .fs-5{
+    font-size: 1.2rem !important;
+  }
+
 }
