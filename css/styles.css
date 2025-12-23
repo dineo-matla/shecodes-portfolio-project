@@ -6,7 +6,7 @@
   --main-font: "georgia", serif;
   --sub-font: "Meie Script", cursive;
 }
-html{
+html {
   overflow-x: hidden;
 }
 
@@ -30,7 +30,7 @@ h1 {
   color: var(--secondary-color);
   font-size: 1.5rem;
   text-align: center;
-  padding:0 15px;
+  padding: 0 15px;
 }
 
 .cta-btn {
@@ -54,29 +54,29 @@ h1 {
   transition: 0.3s ease-in-out;
 }
 
-.App-title{
-  font-family:var(--sub-font);
-  font-size:2.3rem;
-  color:var(--primary-color);
+.App-title {
+  font-family: var(--sub-font);
+  font-size: 2.3rem;
+  color: var(--primary-color);
   margin-top: 18px;
 }
 
-.secondary-paragraph-text{
-  font-family:var(--main-font);
-  font-size:1.3rem;
-  color:var(--accent-color);
-  padding:0 15px;
+.secondary-paragraph-text {
+  font-family: var(--main-font);
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  padding: 0 15px;
 }
 
-.project-info-wrapper{
-  padding:50px 0;
+.project-info-wrapper {
+  padding: 50px 0;
 }
 
-
-.project-description{
-  font-family:var(--main-font);
-font-size:1.3rem;
-color:var(--tertiary-color);
+.project-description {
+  font-family: var(--main-font);
+  font-size: 1.3rem;
+  color: var(--tertiary-color);
+  padding: 0 18px;
 }
 
 .project-link {
@@ -85,25 +85,110 @@ color:var(--tertiary-color);
 }
 
 @media (max-width: 768px) {
- 
-  h1{
-    font-size:2.5rem;
+  h1 {
+    font-size: 2.5rem;
   }
 
-  .secondary-paragraph-text{
+  .secondary-paragraph-text {
     margin: 0 !important;
     font-size: 1.8rem;
   }
 
-  .App-title{
+  .App-title {
     text-align: center;
     font-size: 2.8rem;
   }
 
-  .project-description{
+  .project-description {
     font-size: 1.2rem;
     text-align: center;
     line-height: 1.8;
-    padding:12px;
+    padding: 12px;
+  }
+}
+
+/*About page styles*/
+
+.about-me-container {
+  padding: 80px 0;
+  background-color: var(--primary-color);
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .about-me-container {
+    padding: 40px 0;
+  }
+
+  .about-me-container h1 {
+    text-align: center !important;
+    margin-bottom: 15px;
+    font-size: 2.6rem !important;
+    padding: 0 10px;
+  }
+
+  .about-me-container .paragraph-text {
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    line-height: 1.6 !important;
+  }
+
+  .about-me-container .project-description {
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    line-height: 1.8 !important;
+    padding: 0 18px;
+  }
+
+  .about-me-container.cta-btn {
+    margin: 15px auto !important;
+  }
+
+  .about-me-container figure {
+    margin: 0 0 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-container img {
+    margin-top: 35px !important;
+    width: 300px;
+  }
+}
+
+@media (max-width: 420px) {
+  .about-me-container {
+    padding: 30px 0;
+  }
+
+  .about-me-container h1 {
+    text-align: center !important;
+    margin-bottom: 10px;
+    font-size: 1.8rem !important;
+  }
+
+  .about-me-container .paragraph-text {
+    text-align: center !important;
+    line-height: 1.5 !important;
+  }
+
+  .about-me-container .project-description {
+    text-align: center !important;
+    line-height: 1.8 !important;
+  }
+
+  .about-me-container.cta-btn {
+    margin: 10px auto !important;
+  }
+
+  .about-me-container figure {
+    margin: 0 0 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me-container img {
+    margin-top: 30px !important;
+    width: 200px;
   }
 }
