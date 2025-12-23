@@ -192,3 +192,10 @@ h1 {
     width: 200px;
   }
 }
+
+/*Work page styles*/
+
+.work-page-container {
+  padding: 50px 0;
+  background-color: var(--primary-color);
+}
