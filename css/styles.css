@@ -198,85 +198,87 @@ h1 {
   background-color: var(--primary-color);
 }
 
-.work-page-container .row{
+.work-page-container .row {
   align-items: center !important;
 }
 
-.work-page-container figure{
+.work-page-container figure {
   margin: 0 0 3rem;
 }
 
-.work-page-container img{
-  display:flex;
+.work-page-container img {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin:0 6rem;
+  margin: 0 6rem;
 }
 
-@media(max-width:768px){
-  .work-page-container{
-    padding:20px 0;
+@media (max-width: 768px) {
+  .work-page-container {
+    padding: 20px 0;
   }
 
-  .work-page-container h1{
+  .work-page-container h1 {
     text-align: center !important;
   }
 
-  .work-page-container img{
-    width:200px;
+  .work-page-container img {
+    width: 200px;
   }
 
-  figcaption, .fs-5{
+  figcaption,
+  .fs-5 {
     font-size: 1.3rem !important;
   }
 }
 
-@media(max-width:420px){
-  .work-page-container{
-    padding:25px 0;
+@media (max-width: 420px) {
+  .work-page-container {
+    padding: 25px 0;
     overflow-x: hidden;
   }
 
-  .work-page-container h1{
+  .work-page-container h1 {
     text-align: center !important;
   }
 
-  .work-page-container img{
-    width:200px;
+  .work-page-container img {
+    width: 200px;
   }
 
-  figcaption, .fs-5{
+  figcaption,
+  .fs-5 {
     font-size: 1.2rem !important;
   }
 }
 
 /*Contact page styles*/
 
-.contact-section{
+.contact-section {
   padding: 80px 0;
   background-color: var(--secondary-color);
   overflow-x: hidden;
 }
 
-.contact-section .row{
+.contact-section .row {
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
-.contact-section i{
+.contact-section i {
   margin-top: 15px;
 }
 
-.contact-heading{
+.contact-heading {
   margin: 15px;
 }
 
-.email{
+.email {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 
-.email:hover{
+.email:hover {
   color: var(--accent-color);
   transition: all 0.3s ease-in-out;
 }
@@ -286,20 +288,18 @@ i:hover {
   transition: all 0.3s ease-in-out;
 }
 
-@media(max-width:768px){
-  .contact-section{
-    padding:40px 0;
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 40px 0;
   }
 
-  .contact-heading{
+  .contact-heading {
     text-align: center !important;
     font-size: 2.8rem !important;
   }
 
-  .contact-section .secondary-paragraph-text{
+  .contact-section .secondary-paragraph-text {
     font-size: 1.5rem !important;
     text-align: center !important;
   }
-
-  
 }
