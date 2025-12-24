@@ -6,12 +6,10 @@
   --main-font: "georgia", serif;
   --sub-font: "Meie Script", cursive;
 }
-html {
-  overflow-x: hidden;
-}
 
 .homepage-hero {
   background-color: var(--primary-color);
+  overflow-x: hidden;
 }
 
 .hero {
@@ -250,5 +248,58 @@ h1 {
   figcaption, .fs-5{
     font-size: 1.2rem !important;
   }
+}
 
+/*Contact page styles*/
+
+.contact-section{
+  padding: 80px 0;
+  background-color: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+.contact-section .row{
+  display: flex;
+  justify-content:center;
+}
+
+.contact-section i{
+  margin-top: 15px;
+}
+
+.contact-heading{
+  margin: 15px;
+}
+
+.email{
+  text-decoration: none;
+  color:inherit;
+}
+
+.email:hover{
+  color: var(--accent-color);
+  transition: all 0.3s ease-in-out;
+}
+
+i:hover {
+  color: var(--accent-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:768px){
+  .contact-section{
+    padding:40px 0;
+  }
+
+  .contact-heading{
+    text-align: center !important;
+    font-size: 2.8rem !important;
+  }
+
+  .contact-section .secondary-paragraph-text{
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  
 }
