@@ -22,7 +22,7 @@ nav{
   transition: all 0.3s ease-in-out;
 }
 
-
+/*Homepage styles*/
 
 .homepage-hero {
   background-color: var(--primary-color);
@@ -286,8 +286,11 @@ h1 {
   margin-top: 15px;
 }
 
+.contact-hero{
+  padding:80px 0;
+}
 .contact-heading {
-  margin: 15px;
+  margin: 36px;
 }
 
 .email {
