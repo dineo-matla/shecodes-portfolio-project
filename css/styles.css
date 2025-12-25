@@ -10,7 +10,7 @@ nav{
   background-color:#fff;
 }
 
-.nav-item{
+.nav-link{
   list-style-type: none;
   font-family:var(--main-font);
   font-size: 1.2rem;
