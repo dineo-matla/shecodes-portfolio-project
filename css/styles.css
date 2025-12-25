@@ -6,6 +6,23 @@
   --main-font: "georgia", serif;
   --sub-font: "Meie Script", cursive;
 }
+nav{
+  background-color:#fff;
+}
+
+.nav-item{
+  list-style-type: none;
+  font-family:var(--main-font);
+  font-size: 1.2rem;
+  color:var(--primary-color);
+}
+
+.nav-link:hover, .active{
+  color:var(--accent-color) !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
 
 .homepage-hero {
   background-color: var(--primary-color);
