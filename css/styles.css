@@ -216,29 +216,21 @@ h1 {
 /*Work page styles*/
 
 .work-page-container {
-  padding: 60px;
+  padding: 80px;
   background-color: var(--primary-color);
 }
 
 .work-page-container .row {
-  align-items: center !important;
-}
-
-.work-page-container figure {
-  margin: 0 0 3rem;
-}
-
-.work-page-container img {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 6rem;
+  text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .work-page-container {
-    padding: 40px 0;
-    margin: 25px auto;
+    padding: 60px 20px;
+    margin: 20px auto;
     overflow: hidden;
   }
 
@@ -247,19 +239,19 @@ h1 {
   }
 
   .work-page-container img {
-    width: 200px;
+    width: 300px;
   }
+}
 
-  figcaption,
-  .fs-5 {
-    font-size: 1.3rem !important;
+@media (max-width: 768px) {
+  .work-page-container {
+    padding: 40px 15px;
   }
 }
 
 @media (max-width: 420px) {
   .work-page-container {
-    padding: 35px 0;
-    overflow-x: hidden;
+    padding: 35px 10px;
   }
 
   .work-page-container h1 {
@@ -268,11 +260,6 @@ h1 {
 
   .work-page-container img {
     width: 200px;
-  }
-
-  figcaption,
-  .fs-5 {
-    font-size: 1.2rem !important;
   }
 }
 
