@@ -336,7 +336,6 @@ i:hover {
 
 footer {
   overflow-x: hidden;
-  padding: 0 15px;
 }
 
 .footer-inquiry {
@@ -359,4 +358,27 @@ h4 {
 
 span {
   margin: 15px;
+}
+
+@media(max-width:768px){
+
+.footer-inquiry{
+  border-radius: 50px;
+  padding: 18px;
+  flex-direction:column;
+}
+
+  .footer-inquiry h4 {
+    font: size 15px;
+  }
+
+.footer-inquiry p{
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-inquiry .project-link{
+  font-size: 14px;
+}
+
 }
