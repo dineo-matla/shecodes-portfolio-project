@@ -334,6 +334,11 @@ i:hover {
 
 /*footer styles*/
 
+footer {
+  overflow-x: hidden;
+  padding: 0 15px;
+}
+
 .footer-inquiry {
   background-color: var(--primary-color);
   padding: 35px;
@@ -344,7 +349,7 @@ i:hover {
 
 h4 {
   font-family: var(--sub-font);
-  color: var(--secondary-color)!important;
+  color: var(--secondary-color) !important;
 }
 
 .email-footer p:hover {
